@@ -40,7 +40,8 @@ SELECT * FROM final;
 
 -- show unique items
 SELECT DISTINCT Brand, Item
-FROM final;
+FROM final
+WHERE Retailer IS NOT NULL;
 
 
 -- find items which are selling in more than one retailer;
